@@ -1,0 +1,6 @@
+gpudb==7.0.3.0
+zmq
+requests
+xgboost
+pandas
+scikit-learn
