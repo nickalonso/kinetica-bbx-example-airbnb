@@ -17,7 +17,7 @@ RUN mkdir -p /opt/gpudb/kml/bbx
 WORKDIR "/opt/gpudb/kml/bbx"
 
 # Install Required Libraries and Dependencies
-ADD ../../requirements.txt  ./
+ADD requirements.txt  ./
 RUN pip install -r requirements.txt
 
 # Add Kinetica BlackBox SDK (currently v7.0.5b)
@@ -25,9 +25,7 @@ ADD bb_runner.sh ./
 ADD sdk ./sdk
 
 # Add model below
-ADD ../../bb_module_default.py ./
-ADD model ./
-ADD scaler ./
+ADD bb_module_default.py ./
 
 RUN ["chmod", "+x",  "bb_runner.sh"]
 ENTRYPOINT ["/opt/gpudb/kml/bbx/bb_runner.sh"]
