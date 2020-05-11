@@ -1,7 +1,7 @@
 from bb_module_default import *
 
-"Demonstrates a typical data science training environment with 0 auditing capabilities"
 def main():
+    "Local test batch to verify functionality"
     test = blackbox_function_airbnb(
         {
          'bedrooms':2,
