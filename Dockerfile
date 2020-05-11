@@ -26,6 +26,8 @@ ADD sdk ./sdk
 
 # Add model below
 ADD bb_module_default.py ./
+ADD model ./
+ADD scaler ./
 
 RUN ["chmod", "+x",  "bb_runner.sh"]
 ENTRYPOINT ["/opt/gpudb/kml/bbx/bb_runner.sh"]
