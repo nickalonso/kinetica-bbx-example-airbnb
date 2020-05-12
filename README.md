@@ -4,7 +4,7 @@ More information can be found at: [Kinetica Documentation](http://www.kinetica.c
 
 The Kinetica Blackbox SDK assists users in creating blackbox models to wrap existing code/functionality and make it deployable within the Kinetica system. The Active Analytics Workbench (AAW) currently can only import blackbox models that have been containerized and implement the BlackBox SDK. Users provide the module scripts, modify some SDK files, and the SDK will build a Docker Container from the files and publish it to a given Docker Registry (private or public).
 
-In this example, we take historical, public Airbnb data and train a regressor to predict future listing prices that come to market using Kinetica's Active Analytics Platform.
+In this example, we take historical, public Airbnb data and train a regressor to predict future listing prices that come to market using Kinetica's Active Analytics Workbench.
 
 ## Prerequisites
 
