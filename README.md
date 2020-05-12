@@ -16,15 +16,11 @@ This tutorial assumes you have a Docker account and a Kinetica instance with the
 
 First create a new project. For this example I used Pycharm and am using a Conda enviroment. Download this repository, install the Kinetica Python API, and install any initial libraries you will use. 
 
-1. Clone the project and install the Python API:
+1. Clone the project and install the Kinetica Python API:
 
         git clone https://github.com/nickalonso/kml-bbox-tutorial.git
         pip install gpudb --upgrade
         
-2. Install initial libraries:
-
-        conda install -c conda-forge xgboost
-        conda install -c anaconda pandas
 
 ## Setup
 
